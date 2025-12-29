@@ -107,7 +107,7 @@ export default function Home() {
             {[...techLogos, ...techLogos].map((logo, index) => (
               <div key={index} className="flex items-center gap-3 opacity-50 hover:opacity-100 transition-all duration-300 grayscale hover:grayscale-0 group cursor-default mx-8">
                 <span className="material-symbols-outlined text-3xl text-text-light dark:text-text-dark">{logo.icon}</span>
-                <span className="text-lg font-bold text-text-light dark:text-text-dark font-display">{logo.name}</span>
+                <span className="text-lg font-bold text-text-light dark:text-text-dark font-sans">{logo.name}</span>
               </div>
             ))}
           </div>

@@ -17,8 +17,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['var(--font-roboto-mono)'],
-        display: ['var(--font-space-grotesk)'],
+        sans: ['var(--font-space-grotesk)'],
+        display: ['var(--font-roboto-mono)'],
       },
       colors: {
         border: 'hsl(var(--border))',

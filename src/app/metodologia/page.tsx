@@ -40,7 +40,7 @@ export default function MetodologiaPage() {
                         <span className="material-symbols-outlined text-primary dark:text-primary text-[20px]">verified</span>
                         <span className="text-xs font-bold uppercase tracking-wider text-primary dark:text-primary">Metodología Exclusiva</span>
                     </div>
-                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-[1.1] tracking-[-0.033em] text-text-main dark:text-white">
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-black leading-[1.1] tracking-[-0.033em] text-text-main dark:text-white">
                         Un sistema de rentabilidad diseñado para escalar sin fricción.
                     </h1>
                     <p className="text-lg md:text-xl font-normal leading-relaxed text-text-secondary dark:text-gray-300 max-w-[760px]">

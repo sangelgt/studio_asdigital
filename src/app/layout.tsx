@@ -9,12 +9,12 @@ import { Space_Grotesk, Roboto_Mono } from 'next/font/google';
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
   variable: '--font-space-grotesk',
-  weight: ['500', '700'],
 });
 
 const robotoMono = Roboto_Mono({
   subsets: ['latin'],
   variable: '--font-roboto-mono',
+  weight: ['400', '500', '700'],
 });
 
 export const metadata: Metadata = {
@@ -32,7 +32,7 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Space+Grotesk&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
       </head>
       <body className={`${robotoMono.variable} ${spaceGrotesk.variable} font-sans bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark transition-colors duration-300 antialiased`}>

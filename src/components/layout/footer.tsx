@@ -28,7 +28,7 @@ export function Footer() {
             </div>
           </div>
           <div>
-            <h3 className="font-display font-bold text-lg mb-4 text-text-light dark:text-text-dark">Navegación</h3>
+            <h3 className="font-sans font-bold text-lg mb-4 text-text-light dark:text-text-dark">Navegación</h3>
             <ul className="space-y-3 text-sm text-text-muted-light dark:text-text-muted-dark font-medium">
               <li><Link className="hover:text-primary transition-colors block" href="/">Inicio</Link></li>
               <li><Link className="hover:text-primary transition-colors block" href="/metodologia">Metodología</Link></li>
@@ -38,7 +38,7 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="font-display font-bold text-lg mb-4 text-text-light dark:text-text-dark">Contacto</h3>
+            <h3 className="font-sans font-bold text-lg mb-4 text-text-light dark:text-text-dark">Contacto</h3>
             <ul className="space-y-4 text-sm text-text-muted-light dark:text-text-muted-dark">
               <li className="flex items-center group cursor-pointer">
                 <div className="bg-primary/10 p-2 rounded-lg text-primary mr-3 group-hover:bg-primary group-hover:text-white transition-colors">
@@ -61,7 +61,7 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="font-display font-bold text-lg mb-4 text-text-light dark:text-text-dark">Legal</h3>
+            <h3 className="font-sans font-bold text-lg mb-4 text-text-light dark:text-text-dark">Legal</h3>
             <ul className="space-y-3 text-sm text-text-muted-light dark:text-text-muted-dark font-medium">
               <li><Link className="hover:text-primary transition-colors block" href="#">Declaración de Accesibilidad</Link></li>
               <li><Link className="hover:text-primary transition-colors block" href="/politica-de-privacidad">Política de Privacidad</Link></li>

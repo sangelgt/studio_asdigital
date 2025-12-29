@@ -27,7 +27,7 @@ export default function DiagnosticoPage() {
                 <span className="material-symbols-outlined filled !text-[18px]">verified</span>
                 Diagnóstico de ROI con IA
               </div>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.1] tracking-tight text-slate-900 dark:text-white">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-extrabold leading-[1.1] tracking-tight text-slate-900 dark:text-white">
                 ¿Cuánto está dejando de ganar hoy por la falta de un sistema?
               </h1>
               <p className="text-xl text-slate-600 dark:text-slate-300 leading-relaxed max-w-xl font-medium">
@@ -44,7 +44,7 @@ export default function DiagnosticoPage() {
               <ul className="space-y-4">
                 <li className="flex items-start gap-4">
                   <span className="material-symbols-outlined text-primary mt-0.5 filled !text-[24px]">check_circle</span>
-                  <span className="text-base text-slate-700 dark:text-slate-300">Identificación precisa de fugas de rentabilidad en sus procesos actuales.</span>
+                  <span className="text-base text-slate-700 dark:text-slate-300">Identificación precise de fugas de rentabilidad en sus procesos actuales.</span>
                 </li>
                 <li className="flex items-start gap-4">
                   <span className="material-symbols-outlined text-primary mt-0.5 filled !text-[24px]">check_circle</span>
@@ -58,7 +58,7 @@ export default function DiagnosticoPage() {
             </div>
           </div>
           <div className="relative z-10">
-            <Card className="w-full max-w-[580px] mx-auto lg:mr-0 rounded-2xl shadow-2xl bg-white dark:bg-white text-black">
+            <Card className="w-full max-w-[580px] mx-auto lg:mr-0 rounded-2xl shadow-2xl bg-white text-black">
               <CardHeader className="p-6 md:p-8 lg:p-10 pb-6 border-b border-slate-200">
                 <CardTitle className="text-2xl lg:text-3xl font-bold text-slate-900 mb-2">Solicitar Diagnóstico</CardTitle>
                 <CardDescription className="text-slate-500 text-base">Complete el formulario para recibir su análisis preliminar de ROI.</CardDescription>

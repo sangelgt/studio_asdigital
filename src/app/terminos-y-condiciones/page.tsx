@@ -80,7 +80,7 @@ export default function TerminosYCondicionesPage() {
             <span className="material-symbols-outlined text-primary text-[18px]">gavel</span>
             <span className="text-xs font-bold uppercase tracking-wide text-primary">Marco Legal & Ético</span>
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-[-0.033em] text-text-main dark:text-white">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-black leading-tight tracking-[-0.033em] text-text-main dark:text-white">
             Claridad Legal para Sistemas de Rentabilidad Real.
           </h1>
           <p className="text-lg md:text-xl font-normal leading-relaxed text-text-secondary dark:text-gray-300 max-w-[720px]">
