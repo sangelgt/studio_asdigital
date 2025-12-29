@@ -13,7 +13,7 @@ export function Footer() {
                   alt="Angel Salazar Digital Logo"
                   width={64}
                   height={64}
-                  className="h-16 w-16"
+                  className="h-16 w-auto"
                 />
             </div>
             <p className="text-sm text-text-muted-light dark:text-text-muted-dark mb-6 leading-relaxed">
