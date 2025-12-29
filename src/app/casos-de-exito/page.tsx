@@ -171,7 +171,7 @@ export default function CasosDeExitoPage() {
                     </AnimateOnScroll>
                     <AnimateOnScroll delay={300} className="mt-10 flex flex-wrap justify-center gap-6 text-sm font-mono text-text-muted-light dark:text-text-muted-dark">
                         <span className="flex items-center px-3 py-1 rounded-md bg-white/50 dark:bg-slate-800/50 border border-gray-200 dark:border-gray-700"><span className="material-symbols-outlined text-primary text-lg mr-2">analytics</span> ROI Promedio: +240%</span>
-                        <span className="flex items-center px-3 py-1 rounded-md bg-white/50 dark:bg-slate-800/50 border border-gray-200 dark:border-gray-700"><span className="material-symbols-outlined text-primary text-lg mr-2">timer</span> Tiempo Implementación: 14 Semanas</span>
+                        <span className="flex items-center px-3 py-1 rounded-md bg-white/50 dark:bg-slate-800/50 border border-gray-200 dark:border-gray-700"><span className="material-symbols-outlined text-primary text-lg mr-2">timer</span> Tiempo Implementación: 4 Semanas</span>
                     </AnimateOnScroll>
                 </div>
             </section>
