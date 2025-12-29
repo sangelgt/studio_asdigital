@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
 import React from 'react';
+import Image from 'next/image';
 
 const navLinks = [
   { href: '/', label: 'Inicio' },
@@ -24,9 +25,13 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="flex-shrink-0 flex items-center group">
-            <div className="h-10 w-10 bg-primary rounded-lg flex items-center justify-center mr-3 shadow-lg shadow-primary/20 group-hover:scale-105 transition-transform duration-200">
-              <span className="text-white font-display font-bold text-xl">AS</span>
-            </div>
+            <Image
+              src="/logo.png"
+              alt="Angel Salazar Digital Logo"
+              width={40}
+              height={40}
+              className="h-10 w-10 mr-3 group-hover:scale-105 transition-transform duration-200"
+            />
             <span className="font-display font-bold text-xl tracking-tight hidden sm:block text-text-light dark:text-text-dark">
               Angel Salazar <span className="text-primary">Digital</span>
             </span>

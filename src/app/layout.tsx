@@ -20,6 +20,9 @@ const robotoMono = Roboto_Mono({
 export const metadata: Metadata = {
   title: 'Angel Salazar Digital | ROI en IA',
   description: 'Transforme su inversión en IA en rentabilidad medible. Metodología "Orden antes que Herramienta". Consultoría estratégica de Inteligencia Artificial.',
+  icons: {
+    icon: '/favicon.png',
+  },
 };
 
 export default function RootLayout({
