@@ -1,9 +1,9 @@
 "use client";
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, ReactNode } from 'react';
 import { cn } from '@/lib/utils';
 
 interface AnimateOnScrollProps {
-  children: React.ReactNode;
+  children: ReactNode;
   className?: string;
   delay?: number;
   threshold?: number;
@@ -32,9 +32,9 @@ export const AnimateOnScroll = ({
               observer.unobserve(element);
             }
           } else {
-             if (!triggerOnce) {
-                element.classList.remove('is-visible');
-             }
+            if (!triggerOnce) {
+              element.classList.remove('is-visible');
+            }
           }
         });
       },
@@ -45,12 +45,12 @@ export const AnimateOnScroll = ({
 
     return () => observer.disconnect();
   }, [threshold, triggerOnce]);
-  
+
   return (
     <div
       ref={ref}
       className={cn(
-        'opacity-0 transform translate-y-8 transition-all duration-700 ease-out',
+        'opacity-0 transform translate-y-4 transition-all duration-700 ease-out',
         className
       )}
       style={{ transitionDelay: `${delay}ms` }}
@@ -59,11 +59,3 @@ export const AnimateOnScroll = ({
     </div>
   );
 };
-
-// Simple CSS to apply the visible state
-// We'll use a global style for this.
-// .is-visible {
-//   opacity: 1;
-//   transform: translateY(0);
-// }
-// This logic is implemented directly in the component's className.

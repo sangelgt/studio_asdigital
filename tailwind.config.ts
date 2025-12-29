@@ -17,10 +17,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        body: ['Inter', 'sans-serif'],
-        headline: ['Space Grotesk', 'sans-serif'],
-        display: ['Space Grotesk', 'sans-serif'], // Alias for headline
-        sans: ['Inter', 'sans-serif'], // shadcn uses sans
+        sans: ['var(--font-inter)'],
+        display: ['var(--font-space-grotesk)'],
       },
       colors: {
         border: 'hsl(var(--border))',
@@ -56,7 +54,7 @@ export default {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
         },
-        // Custom semantic colors from proposal
+         // Custom semantic colors from proposal
         'background-light': '#F9FAFB',
         'background-dark': '#0F172A',
         'surface-light': '#FFFFFF',
@@ -89,7 +87,7 @@ export default {
             height: '0',
           },
         },
-        'fade-in-up': {
+         'fade-in-up': {
           '0%': { opacity: '0', transform: 'translateY(20px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
@@ -105,13 +103,11 @@ export default {
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
-        'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+        'fade-in-up': 'fade-in-up 0.8s ease-out forwards',
         'float-slow': 'float 6s ease-in-out infinite',
-        'float-delayed': 'float 6s ease-in-out 3s infinite',
-        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
         'scroll': 'scroll 40s linear infinite',
       },
-      backgroundImage: {
+       backgroundImage: {
         'grid-pattern': "linear-gradient(to right, #e5e7eb 1px, transparent 1px), linear-gradient(to bottom, #e5e7eb 1px, transparent 1px)",
         'grid-pattern-dark': "linear-gradient(to right, #374151 1px, transparent 1px), linear-gradient(to bottom, #374151 1px, transparent 1px)",
       }
