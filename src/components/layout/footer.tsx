@@ -75,7 +75,7 @@ export function Footer() {
           <div className="flex items-center space-x-4">
             <span className="flex items-center text-xs opacity-75">
               <span className="material-symbols-outlined text-sm mr-1">location_on</span>
-              Madrid, España
+              Venezuela
             </span>
           </div>
         </div>
