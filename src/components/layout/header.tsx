@@ -30,7 +30,7 @@ export function Header() {
               alt="Angel Salazar Digital Logo"
               width={384}
               height={128}
-              className="h-16 w-auto group-hover:scale-105 transition-transform duration-200"
+              className="h-32 w-auto group-hover:scale-105 transition-transform duration-200"
             />
           </Link>
 
