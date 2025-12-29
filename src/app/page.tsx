@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { AnimateOnScroll } from '@/components/animate-on-scroll';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const techLogos = [
   { name: 'TensorFlow', icon: 'neurology' },
@@ -16,6 +17,7 @@ const techLogos = [
 ];
 
 export default function Home() {
+  const angelSalazarImage = PlaceHolderImages.find(img => img.id === 'man-portrait');
   return (
     <>
       <section className="relative pt-32 pb-24 md:pt-48 md:pb-32 overflow-hidden">
@@ -187,13 +189,13 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center gap-16">
             <AnimateOnScroll className="w-full md:w-1/3 relative">
               <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl relative z-10 ring-1 ring-gray-900/10 dark:ring-white/10">
-                <Image alt="Angel Salazar" className="h-full w-full object-cover" src="https://picsum.photos/seed/man-portrait/400/400" width={400} height={400} data-ai-hint="man portrait"/>
+                {angelSalazarImage && <Image alt="Angel Salazar" className="h-full w-full object-cover" src={angelSalazarImage.imageUrl} width={400} height={400} data-ai-hint={angelSalazarImage.imageHint}/>}
               </div>
               <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-grid-pattern dark:bg-grid-pattern-dark opacity-50 rounded-full z-0"></div>
               <div className="absolute -top-6 -left-6 w-24 h-24 bg-primary/10 rounded-full z-0"></div>
             </AnimateOnScroll>
             <AnimateOnScroll delay={200} className="w-full md:w-2/3">
-              <h2 className="text-3xl font-display font-bold mb-6 text-text-light dark:text-text-dark">Autoridad y Confianza</h2>
+              <h2 className="text-3xl font-display font-bold mb-6 text-text-light dark:text-text-dark">Resultados reales antes de la primera línea de código</h2>
               <p className="text-lg text-text-muted-light dark:text-text-muted-dark mb-8 leading-relaxed">
                 "La Inteligencia Artificial no es una varita mágica, es un amplificador. Si amplificas procesos ineficientes, solo escalas el desastre. Mi misión es simple: limpiar la casa antes de invitar a los robots. Los resultados no mienten."
               </p>
