@@ -47,15 +47,9 @@ export function Footer() {
             <ul className="space-y-4 text-sm text-text-muted-light dark:text-text-muted-dark">
               <li className="flex items-center group cursor-pointer">
                 <div className="bg-primary/10 p-2 rounded-lg text-primary mr-3 group-hover:bg-primary group-hover:text-white transition-colors">
-                  <span className="material-symbols-outlined text-sm">phone</span>
-                </div>
-                <span className="group-hover:text-text-light dark:group-hover:text-text-dark transition-colors">+34 912 345 678</span>
-              </li>
-              <li className="flex items-center group cursor-pointer">
-                <div className="bg-primary/10 p-2 rounded-lg text-primary mr-3 group-hover:bg-primary group-hover:text-white transition-colors">
                   <span className="material-symbols-outlined text-sm">email</span>
                 </div>
-                <span className="group-hover:text-text-light dark:group-hover:text-text-dark transition-colors">contacto@angelsalazardigital.com</span>
+                <span className="group-hover:text-text-light dark:group-hover:text-text-dark transition-colors">soporte_asdigital@proton.me</span>
               </li>
               <li className="flex items-center group">
                 <div className="bg-primary/10 p-2 rounded-lg text-primary mr-3">
