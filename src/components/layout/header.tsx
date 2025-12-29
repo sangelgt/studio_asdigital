@@ -28,13 +28,10 @@ export function Header() {
             <Image
               src="/logo.png"
               alt="Angel Salazar Digital Logo"
-              width={40}
-              height={40}
-              className="h-10 w-10 mr-3 group-hover:scale-105 transition-transform duration-200"
+              width={64}
+              height={64}
+              className="h-16 w-16 group-hover:scale-105 transition-transform duration-200"
             />
-            <span className="font-display font-bold text-xl tracking-tight hidden sm:block text-text-light dark:text-text-dark">
-              Angel Salazar <span className="text-primary">Digital</span>
-            </span>
           </Link>
 
           <nav className="hidden md:flex space-x-8 items-center">

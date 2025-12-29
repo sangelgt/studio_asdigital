@@ -11,13 +11,10 @@ export function Footer() {
                <Image
                   src="/logo.png"
                   alt="Angel Salazar Digital Logo"
-                  width={32}
-                  height={32}
-                  className="h-8 w-8 mr-2"
+                  width={64}
+                  height={64}
+                  className="h-16 w-16"
                 />
-              <span className="font-display font-bold text-xl text-text-light dark:text-text-dark tracking-tight">
-                Angel Salazar <span className="text-primary">Digital</span>
-              </span>
             </div>
             <p className="text-sm text-text-muted-light dark:text-text-muted-dark mb-6 leading-relaxed">
               Transformando negocios mediante inteligencia artificial aplicada.<br />
