@@ -122,7 +122,7 @@ export default function Home() {
               <div className="w-14 h-14 bg-destructive/10 rounded-full flex items-center justify-center mb-6 text-destructive mx-auto md:mx-0 group-hover:scale-110 transition-transform duration-300 ring-4 ring-surface-light dark:ring-surface-dark">
                 <span className="material-symbols-outlined text-3xl">error_outline</span>
               </div>
-              <h3 className="text-2xl font-display font-bold mb-4 text-text-light dark:text-text-dark tracking-tight">El Problema</h3>
+              <h3 className="text-2xl font-display font-bold mb-4 text-text-light dark:text-text-dark tracking-tight">El Error de Prioridades</h3>
               <h4 className="text-lg font-bold text-destructive mb-3">Implementación Inversa</h4>
               <p className="text-text-muted-light dark:text-text-muted-dark leading-relaxed flex-grow">
                 La mayoría de las empresas cometen el error capital: compran licencias de software esperando que la herramienta arregle mágicamente procesos rotos. Esto no es innovación, es automatización del caos.
@@ -132,7 +132,7 @@ export default function Home() {
               <div className="w-14 h-14 bg-warning/10 rounded-full flex items-center justify-center mb-6 text-warning mx-auto md:mx-0 group-hover:scale-110 transition-transform duration-300 ring-4 ring-surface-light dark:ring-surface-dark">
                 <span className="material-symbols-outlined text-3xl">psychology_alt</span>
               </div>
-              <h3 className="text-2xl font-display font-bold mb-4 text-text-light dark:text-text-dark tracking-tight">La Agitación</h3>
+              <h3 className="text-2xl font-display font-bold mb-4 text-text-light dark:text-text-dark tracking-tight">El Desgaste Operativo</h3>
               <h4 className="text-lg font-bold text-warning mb-3">La Hemorragia Silenciosa</h4>
               <p className="text-text-muted-light dark:text-text-muted-dark leading-relaxed flex-grow">
                 Mientras sus competidores anuncian "éxitos", usted acumula costos ocultos. Equipos frustrados, datos aislados y herramientas caras que nadie usa. La brecha entre expectativa y realidad se ensancha.
@@ -143,7 +143,7 @@ export default function Home() {
               <div className="w-14 h-14 bg-primary text-white rounded-full flex items-center justify-center mb-6 mx-auto md:mx-0 group-hover:scale-110 transition-transform duration-300 ring-4 ring-surface-light dark:ring-surface-dark shadow-lg shadow-primary/30">
                 <span className="material-symbols-outlined text-3xl">check_circle</span>
               </div>
-              <h3 className="text-2xl font-display font-bold mb-4 text-text-light dark:text-text-dark tracking-tight">La Solución</h3>
+              <h3 className="text-2xl font-display font-bold mb-4 text-text-light dark:text-text-dark tracking-tight">Arquitectura de Procesos</h3>
               <h4 className="text-lg font-bold text-primary mb-3">Método ASD: Orden antes que Herramienta</h4>
               <p className="text-text-muted-light dark:text-text-muted-dark leading-relaxed flex-grow relative z-10">
                 Auditamos sus flujos de trabajo, eliminamos la fricción y estructuramos sus datos. Solo entonces, inyectamos la IA precisa. Transformamos la adopción tecnológica en una ciencia de rentabilidad predecible.
