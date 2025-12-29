@@ -62,7 +62,7 @@ export function Footer() {
           <div>
             <h3 className="font-sans font-bold text-lg mb-4 text-text-light dark:text-text-dark">Legal</h3>
             <ul className="space-y-3 text-sm text-text-muted-light dark:text-text-muted-dark font-medium">
-              <li><Link className="hover:text-primary transition-colors block" href="#">Declaración de Accesibilidad</Link></li>
+              <li><Link className="hover:text-primary transition-colors block" href="/declaracion-de-accesibilidad">Declaración de Accesibilidad</Link></li>
               <li><Link className="hover:text-primary transition-colors block" href="/politica-de-privacidad">Política de Privacidad</Link></li>
               <li><Link className="hover:text-primary transition-colors block" href="/terminos-y-condiciones">Términos y Condiciones</Link></li>
             </ul>
