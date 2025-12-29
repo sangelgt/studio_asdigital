@@ -25,14 +25,12 @@ export default function Home() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="text-center lg:text-left">
-              <AnimateOnScroll>
-                <h1 className="text-5xl md:text-7xl font-display font-bold mb-8 tracking-tight leading-[1.1] text-text-light dark:text-text-dark">
-                  Deje de comprar <br className="hidden md:block" /> herramientas. <br />
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-purple-500 to-primary">
-                    Construya sistemas de rentabilidad.
-                  </span>
-                </h1>
-              </AnimateOnScroll>
+              <h1 className="text-5xl md:text-7xl font-display font-bold mb-8 tracking-tight leading-[1.1] text-text-light dark:text-text-dark">
+                Deje de comprar <br className="hidden md:block" /> herramientas. <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-purple-500 to-primary">
+                  Construya sistemas de rentabilidad.
+                </span>
+              </h1>
               <AnimateOnScroll delay={100}>
                 <h2 className="mb-10 max-w-2xl mx-auto lg:mx-0 text-lg md:text-xl text-text-muted-light dark:text-text-muted-dark leading-relaxed font-normal">
                   El 95% de los pilotos de Inteligencia Artificial fracasan en generar resultados financieros. En Angel Salazar Digital, orquestamos procesos de negocio bajo el método "Orden antes que Herramienta" para transformar su frustración en ROI tangible.
