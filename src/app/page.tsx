@@ -118,8 +118,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8 relative">
             <div className="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-gray-200 dark:via-gray-700 to-transparent z-0"></div>
-            <AnimateOnScroll className="relative z-10 bg-background-light dark:bg-background-dark p-8 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-lg group hover:border-destructive/40 transition-colors duration-300 h-full flex flex-col">
-              <div className="w-14 h-14 bg-destructive/10 rounded-full flex items-center justify-center mb-6 text-destructive mx-auto md:mx-0 group-hover:scale-110 transition-transform duration-300 ring-4 ring-surface-light dark:ring-surface-dark">
+            <AnimateOnScroll className="relative z-10 bg-background-light dark:bg-background-dark p-8 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-lg group hover:border-destructive/40 transition-colors duration-300 h-full flex flex-col text-center">
+              <div className="w-14 h-14 bg-destructive/10 rounded-full flex items-center justify-center mb-6 text-destructive mx-auto group-hover:scale-110 transition-transform duration-300 ring-4 ring-surface-light dark:ring-surface-dark">
                 <span className="material-symbols-outlined text-3xl">error_outline</span>
               </div>
               <h3 className="text-2xl font-display font-bold mb-4 text-text-light dark:text-text-dark tracking-tight">El Error de Prioridades</h3>
@@ -128,8 +128,8 @@ export default function Home() {
                 La mayoría de las empresas cometen el error capital: compran licencias de software esperando que la herramienta arregle mágicamente procesos rotos. Esto no es innovación, es automatización del caos.
               </p>
             </AnimateOnScroll>
-            <AnimateOnScroll delay={100} className="relative z-10 bg-background-light dark:bg-background-dark p-8 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-lg group hover:border-warning/40 transition-colors duration-300 h-full flex flex-col">
-              <div className="w-14 h-14 bg-warning/10 rounded-full flex items-center justify-center mb-6 text-warning mx-auto md:mx-0 group-hover:scale-110 transition-transform duration-300 ring-4 ring-surface-light dark:ring-surface-dark">
+            <AnimateOnScroll delay={100} className="relative z-10 bg-background-light dark:bg-background-dark p-8 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-lg group hover:border-warning/40 transition-colors duration-300 h-full flex flex-col text-center">
+              <div className="w-14 h-14 bg-warning/10 rounded-full flex items-center justify-center mb-6 text-warning mx-auto group-hover:scale-110 transition-transform duration-300 ring-4 ring-surface-light dark:ring-surface-dark">
                 <span className="material-symbols-outlined text-3xl">psychology_alt</span>
               </div>
               <h3 className="text-2xl font-display font-bold mb-4 text-text-light dark:text-text-dark tracking-tight">El Desgaste Operativo</h3>
@@ -138,9 +138,9 @@ export default function Home() {
                 Mientras sus competidores anuncian "éxitos", usted acumula costos ocultos. Equipos frustrados, datos aislados y herramientas caras que nadie usa. La brecha entre expectativa y realidad se ensancha.
               </p>
             </AnimateOnScroll>
-            <AnimateOnScroll delay={200} className="relative z-10 bg-background-light dark:bg-background-dark p-8 rounded-2xl border border-primary/30 shadow-xl shadow-primary/5 group h-full flex flex-col">
+            <AnimateOnScroll delay={200} className="relative z-10 bg-background-light dark:bg-background-dark p-8 rounded-2xl border border-primary/30 shadow-xl shadow-primary/5 group h-full flex flex-col text-center">
               <div className="absolute inset-0 bg-primary/5 rounded-2xl pointer-events-none"></div>
-              <div className="w-14 h-14 bg-primary text-white rounded-full flex items-center justify-center mb-6 mx-auto md:mx-0 group-hover:scale-110 transition-transform duration-300 ring-4 ring-surface-light dark:ring-surface-dark shadow-lg shadow-primary/30">
+              <div className="w-14 h-14 bg-primary text-white rounded-full flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform duration-300 ring-4 ring-surface-light dark:ring-surface-dark shadow-lg shadow-primary/30">
                 <span className="material-symbols-outlined text-3xl">check_circle</span>
               </div>
               <h3 className="text-2xl font-display font-bold mb-4 text-text-light dark:text-text-dark tracking-tight">Arquitectura de Procesos</h3>
