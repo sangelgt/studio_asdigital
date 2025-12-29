@@ -187,7 +187,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center gap-16">
             <AnimateOnScroll className="w-full md:w-1/3 relative">
               <div className="rounded-2xl overflow-hidden shadow-2xl relative z-10 ring-1 ring-gray-900/10 dark:ring-white/10">
-                <Image alt="Angel Salazar" className="h-full w-full object-cover" src="/mi-foto.png" width={400} height={400} />
+                <Image alt="Angel Salazar" className="h-full w-full object-cover" src="https://picsum.photos/seed/authorshot/400/400" width={400} height={400} data-ai-hint="man portrait" />
               </div>
               <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-grid-pattern dark:bg-grid-pattern-dark opacity-50 rounded-full z-0"></div>
               <div className="absolute -top-6 -left-6 w-24 h-24 bg-primary/10 rounded-full z-0"></div>
