@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "man-portrait",
+      "description": "Portrait of Angel Salazar",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjcwMTA4OTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "nabolic-fitness",
+      "description": "Interior of Nabolic Fitness gym",
+      "imageUrl": "https://images.unsplash.com/photo-1651340048650-9bb75627f3de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxneW0lMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjY5NTYzODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gym interior"
+    },
+    {
+      "id": "la-explotada",
+      "description": "Warehouse logistics for La Explotada.ve",
+      "imageUrl": "https://images.unsplash.com/photo-1573209680076-bd7ec7007616?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3YXJlaG91c2UlMjBsb2dpc3RpY3N8ZW58MHx8fHwxNzY3MDM2NTI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "warehouse logistics"
+    },
+    {
+      "id": "medusa-group",
+      "description": "Corporate office meeting",
+      "imageUrl": "https://images.unsplash.com/photo-1522071901873-411886a10004?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxvZmZpY2UlMjBtZWV0aW5nfGVufDB8fHx8MTc2Njk1NjI0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office meeting"
+    }
+  ]
 }
