@@ -4,6 +4,18 @@ import { ThemeProvider } from '@/components/theme-provider';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import { Toaster } from '@/components/ui/toaster';
+import { Space_Grotesk, Roboto_Mono } from 'next/font/google';
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ['latin'],
+  variable: '--font-space-grotesk',
+  weight: ['500', '700'],
+});
+
+const robotoMono = Roboto_Mono({
+  subsets: ['latin'],
+  variable: '--font-roboto-mono',
+});
 
 export const metadata: Metadata = {
   title: 'Angel Salazar Digital | ROI en IA',
@@ -20,10 +32,10 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@300;400;500;600;700;800&family=Manrope:wght@200..800&family=Noto+Sans:wght@300..700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
       </head>
-      <body className="font-body bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark transition-colors duration-300 antialiased">
+      <body className={`${robotoMono.variable} ${spaceGrotesk.variable} font-sans bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark transition-colors duration-300 antialiased`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
