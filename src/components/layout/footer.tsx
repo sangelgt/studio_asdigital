@@ -11,8 +11,8 @@ export function Footer() {
                <Image
                   src="/logo.png"
                   alt="Angel Salazar Digital Logo"
-                  width={192}
-                  height={64}
+                  width={384}
+                  height={128}
                   className="h-16 w-auto"
                 />
             </div>
