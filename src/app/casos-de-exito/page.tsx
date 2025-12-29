@@ -188,7 +188,7 @@ export default function CasosDeExitoPage() {
                     </AnimateOnScroll>
                     <AnimateOnScroll delay={200} className="mt-8 flex items-center justify-center space-x-4">
                         <div className="h-14 w-14 rounded-full bg-gray-300 overflow-hidden ring-2 ring-primary/20 dark:ring-primary/20">
-                            <Image alt="Angel Salazar" className="h-full w-full object-cover" src="https://picsum.photos/seed/authorshot/100/100" width={100} height={100} data-ai-hint="man portrait"/>
+                            <Image alt="Angel Salazar" className="h-full w-full object-cover" src="/mi-foto-1.png" width={100} height={100} data-ai-hint="man portrait"/>
                         </div>
                         <div className="text-left">
                             <div className="font-bold text-lg text-text-light dark:text-text-dark">Angel Salazar</div>
