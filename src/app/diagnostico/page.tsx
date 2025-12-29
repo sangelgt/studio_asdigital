@@ -58,10 +58,10 @@ export default function DiagnosticoPage() {
             </div>
           </div>
           <div className="relative z-10">
-            <Card className="w-full max-w-[580px] mx-auto lg:mr-0 rounded-2xl shadow-2xl border-slate-200 dark:border-slate-700">
-              <CardHeader className="p-6 md:p-8 lg:p-10 pb-6 border-b border-slate-100 dark:border-slate-700">
-                <CardTitle className="text-2xl lg:text-3xl font-bold text-slate-900 dark:text-white mb-2">Solicitar Diagnóstico</CardTitle>
-                <CardDescription className="text-slate-500 dark:text-slate-400 text-base">Complete el formulario para recibir su análisis preliminar de ROI.</CardDescription>
+            <Card className="w-full max-w-[580px] mx-auto lg:mr-0 rounded-2xl shadow-2xl bg-white dark:bg-white text-black">
+              <CardHeader className="p-6 md:p-8 lg:p-10 pb-6 border-b border-slate-200">
+                <CardTitle className="text-2xl lg:text-3xl font-bold text-slate-900 mb-2">Solicitar Diagnóstico</CardTitle>
+                <CardDescription className="text-slate-500 text-base">Complete el formulario para recibir su análisis preliminar de ROI.</CardDescription>
               </CardHeader>
               <CardContent className="p-6 md:p-8 lg:p-10 pt-8">
                 <DiagnosticForm />
