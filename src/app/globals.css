@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -89,4 +90,20 @@
 .is-visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - 2rem));
+  }
+}
+
+.logo-track {
+  display: flex;
+  width: max-content;
+  gap: 4rem;
+  animation: scroll 30s linear infinite;
 }

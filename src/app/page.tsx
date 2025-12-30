@@ -4,14 +4,13 @@ import { Button } from '@/components/ui/button';
 import { AnimateOnScroll } from '@/components/animate-on-scroll';
 
 const techLogos = [
-  { name: 'TensorFlow', slug: 'tensorflow' },
-  { name: 'Microsoft Azure', slug: 'microsoftazure' },
-  { name: 'Google Cloud', slug: 'googlecloud' },
-  { name: 'OpenAI', slug: 'openai' },
-  { name: 'NVIDIA', slug: 'nvidia' },
-  { name: 'Databricks', slug: 'databricks' },
-  { name: 'Amazon Web Services', slug: 'amazonaws' },
-  { name: 'Snowflake', slug: 'snowflake' },
+  { name: 'Google', url: 'https://cdn.simpleicons.org/google/white' },
+  { name: 'OpenAI', url: 'https://cdn.simpleicons.org/openai/white' },
+  { name: 'Claude', url: 'https://cdn.simpleicons.org/anthropic/white' },
+  { name: 'n8n', url: 'https://cdn.simpleicons.org/n8n/white' },
+  { name: 'Make', url: 'https://cdn.simpleicons.org/make/white' },
+  { name: 'Linux', url: 'https://cdn.simpleicons.org/linux/white' },
+  { name: 'Docker', url: 'https://cdn.simpleicons.org/docker/white' },
 ];
 
 export default function Home() {
@@ -86,29 +85,30 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-12 bg-background-light dark:bg-background-dark border-b border-gray-200 dark:border-gray-800 relative overflow-hidden">
+      <section className="py-12 bg-background-light dark:bg-background-dark border-b border-gray-200 dark:border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 text-center">
-         <AnimateOnScroll>
-            <span className="text-xs font-bold text-primary bg-primary/10 dark:bg-primary/20 px-3 py-1 rounded-full uppercase tracking-widest border border-primary/20">Ecosistema Tecnológico</span>
+          <AnimateOnScroll>
+            <span className="text-xs font-bold text-primary bg-primary/10 dark:bg-primary/20 px-3 py-1 rounded-full uppercase tracking-widest border border-primary/20">ECOSISTEMA TECNOLÓGICO</span>
             <h3 className="mt-4 text-sm font-bold text-text-muted-light dark:text-text-muted-dark uppercase tracking-[0.2em]">
-              Integración Nativa con Líderes del Sector
+              INTEGRACIÓN NATIVA CON LÍDERES DEL SECTOR
             </h3>
           </AnimateOnScroll>
         </div>
-        <div className="relative w-full overflow-hidden">
-          <div className="absolute left-0 top-0 bottom-0 w-24 md:w-32 bg-gradient-to-r from-background-light dark:from-background-dark to-transparent z-10 pointer-events-none"></div>
-          <div className="absolute right-0 top-0 bottom-0 w-24 md:w-32 bg-gradient-to-l from-background-light dark:from-background-dark to-transparent z-10 pointer-events-none"></div>
-          <div className="flex items-center w-max animate-[scroll_40s_linear_infinite] hover:[animation-play-state:paused] py-4">
+        <div
+          className="w-full overflow-hidden"
+          style={{
+            maskImage: 'linear-gradient(to right, transparent, black 15%, black 85%, transparent)',
+          }}
+        >
+          <div className="logo-track">
             {[...techLogos, ...techLogos].map((logo, index) => (
-               <div key={index} className="flex items-center justify-center gap-4 mx-8 group" title={logo.name}>
-                <Image
-                  src={`https://cdn.simpleicons.org/${logo.slug}`}
-                  alt={`Logo de ${logo.name}`}
-                  width={45}
-                  height={45}
-                  className="h-12 w-auto object-contain opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300 dark:invert"
-                />
-              </div>
+              <img
+                key={index}
+                src={logo.url}
+                alt={`Logo de ${logo.name}`}
+                style={{ height: '40px' }}
+                className="flex-shrink-0"
+              />
             ))}
           </div>
         </div>
