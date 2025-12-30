@@ -30,11 +30,9 @@ export default function Home() {
                   Construya sistemas de rentabilidad.
                 </span>
               </h1>
-              <AnimateOnScroll delay={100}>
                 <h2 className="mb-10 max-w-2xl mx-auto lg:mx-0 text-lg md:text-xl text-text-muted-light dark:text-text-muted-dark leading-relaxed font-normal">
                   El 95% de los pilotos de Inteligencia Artificial fracasan en generar resultados financieros. En Angel Salazar Digital, orquestamos procesos de negocio bajo el método "Orden antes que Herramienta" para transformar su frustración en ROI tangible.
                 </h2>
-              </AnimateOnScroll>
               <AnimateOnScroll delay={200} className="flex flex-col items-center lg:items-start">
                 <Button asChild size="lg" className="text-lg font-bold py-7 px-10 rounded-lg shadow-xl shadow-primary/40 transform hover:-translate-y-1 transition-all duration-300 group">
                   <Link href="/diagnostico">
