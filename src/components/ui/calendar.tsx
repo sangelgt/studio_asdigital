@@ -54,14 +54,17 @@ export function Calendar({
         ...classNames,
       }}
       components={{
-        Chevron: ({ orientation }) => {
+
+ fix/project-standards-alignment-17276205780998034412
+        Chevron: ({ orientation, ...props }) => {
           const Icon = orientation === "left" ? ChevronLeft : ChevronRight;
-          return <Icon className="h-4 w-4" />;
-        }
+          return <Icon className={cn("h-4 w-4", props.className)} />;
+         },
       }}
       {...props}
     />
   )
 }
 
-Calendar.displayName = "Calendar";
+Calendar.displayName = "Calendar"
+
