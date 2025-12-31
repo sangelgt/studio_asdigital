@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
   // 2. CONFIGURACIÓN DE RUTA (Muy importante)
   // Si tu repo se llama "mi-proyecto", pon '/mi-proyecto'. 
   // Si es tu repo principal (usuario.github.io), déjalo como '' o bórralo.
-  basePath: '/NOMBRE_DE_TU_REPOSITORIO', 
+  basePath: '/studio_asdigital', 
 
   typescript: {
     ignoreBuildErrors: true,
