@@ -1,7 +1,14 @@
-import type {NextConfig} from 'next';
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // 1. ACTIVAR EXPORTACIÓN ESTÁTICA
+  output: 'export', 
+  
+  // 2. CONFIGURACIÓN DE RUTA (Muy importante)
+  // Si tu repo se llama "mi-proyecto", pon '/mi-proyecto'. 
+  // Si es tu repo principal (usuario.github.io), déjalo como '' o bórralo.
+  basePath: '/NOMBRE_DE_TU_REPOSITORIO', 
+
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -9,6 +16,10 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
+    // 3. DESACTIVAR OPTIMIZACIÓN NATIVA
+    // GitHub Pages es un servidor estático y no puede procesar imágenes en tiempo real
+    unoptimized: true, 
+    
     remotePatterns: [
       {
         protocol: 'https',
