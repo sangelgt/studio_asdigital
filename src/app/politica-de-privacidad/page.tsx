@@ -37,29 +37,37 @@ export default function PoliticaDePrivacidadPage() {
         <div className="w-full max-w-[960px] flex flex-col gap-6">
           <AnimateOnScroll
             className="overflow-hidden rounded-xl shadow-2xl relative min-h-[420px] flex flex-col items-center justify-center p-8 md:p-20 text-center group"
-            style={{
-              backgroundImage: 'linear-gradient(rgba(16, 22, 34, 0.8) 0%, rgba(91, 33, 182, 0.5) 100%), url("https://picsum.photos/seed/privacy-bg/1200/600")',
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-            }}
             data-ai-hint="abstract geometric"
           >
-            <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/10 text-white text-xs font-display font-bold uppercase tracking-wider mb-8 hover:bg-white/20 transition-colors cursor-default">
-              <span className="material-symbols-outlined text-base">shield</span>
-              Política de Privacidad
-            </span>
-            <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-display font-extrabold leading-tight tracking-tight mb-6 max-w-3xl">
-              Su Privacidad, Nuestro Compromiso con el Orden
-            </h1>
-            <h2 className="text-slate-100 text-lg md:text-xl font-body font-normal leading-relaxed max-w-2xl mx-auto mb-10 text-opacity-90">
-              Gobernanza de datos alineada con nuestra metodología para transformar inversiones en IA en rentabilidad medible y segura.
-            </h2>
-            <Button asChild className="bg-primary hover:bg-primary-hover text-white px-8 py-3.5 rounded-lg font-display font-bold transition-all shadow-xl shadow-primary/30 hover:shadow-primary/50 hover:-translate-y-0.5">
-              <Link href="#user-rights">
-                <span className="material-symbols-outlined text-xl">gavel</span>
-                <span>Conozca sus derechos</span>
-              </Link>
-            </Button>
+            {/* CORRECCIÓN: El fondo se maneja en un div interno para evitar el error de TypeScript */}
+            <div 
+              className="absolute inset-0 z-0"
+              style={{
+                backgroundImage: 'linear-gradient(rgba(16, 22, 34, 0.8) 0%, rgba(91, 33, 182, 0.5) 100%), url("https://picsum.photos/seed/privacy-bg/1200/600")',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+              }}
+            />
+            
+            {/* Contenido con z-index superior para estar sobre el fondo */}
+            <div className="relative z-10 flex flex-col items-center">
+              <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/10 text-white text-xs font-display font-bold uppercase tracking-wider mb-8 hover:bg-white/20 transition-colors cursor-default">
+                <span className="material-symbols-outlined text-base">shield</span>
+                Política de Privacidad
+              </span>
+              <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-display font-extrabold leading-tight tracking-tight mb-6 max-w-3xl">
+                Su Privacidad, Nuestro Compromiso con el Orden
+              </h1>
+              <h2 className="text-slate-100 text-lg md:text-xl font-body font-normal leading-relaxed max-w-2xl mx-auto mb-10 text-opacity-90">
+                Gobernanza de datos alineada con nuestra metodología para transformar inversiones en IA en rentabilidad medible y segura.
+              </h2>
+              <Button asChild className="bg-primary hover:bg-primary-hover text-white px-8 py-3.5 rounded-lg font-display font-bold transition-all shadow-xl shadow-primary/30 hover:shadow-primary/50 hover:-translate-y-0.5">
+                <Link href="#user-rights">
+                  <span className="material-symbols-outlined text-xl">gavel</span>
+                  <span>Conozca sus derechos</span>
+                </Link>
+              </Button>
+            </div>
           </AnimateOnScroll>
         </div>
       </section>
