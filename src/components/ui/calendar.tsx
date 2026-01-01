@@ -59,7 +59,7 @@ export function Calendar({
           const Icon = orientation === "left" ? ChevronLeft : ChevronRight;
           return <Icon className="h-4 w-4" />;
         }
-
+ fix/project-standards-alignment-17276205780998034412
       }}
       {...props}
     />
